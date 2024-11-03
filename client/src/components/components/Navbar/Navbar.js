@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from 'react'
-import useStyles from './styles';
 import { AppBar, Typography, Toolbar, Avatar, Button} from '@material-ui/core';
 // import memories from '../../../images/memories.png';
 // import memoriesLogo from '../../../images/memories-Logo.png';
 // import memoriesText from '../../../images/memories-Text.png';
 import * as actionType from '../../../constants/actionTypes';
 import decode from 'jwt-decode';
-import { useDispatch } from 'react-redux'
+import { useDispatch } from 'react-redux';
+import useStyles from './styles';
 
 import { Link, useHistory, useLocation } from 'react-router-dom';
 
