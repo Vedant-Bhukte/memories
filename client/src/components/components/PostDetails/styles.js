@@ -80,7 +80,7 @@ export default makeStyles((theme) => ({
     },
   },
   recommendedPost: {
-    width: '200px',
+    width: '180px',
     borderRadius: theme.shape.borderRadius * 2,
     margin: '10px',
     cursor: 'pointer',
